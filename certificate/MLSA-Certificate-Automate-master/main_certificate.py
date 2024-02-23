@@ -39,10 +39,8 @@ def create_docx_files(filename, list_participate, ambassador):
         convert('Output/Doc/{}.docx'.format(name), 'Output/Pdf/{}.pdf'.format(name))
 
 # get certificate temple path
-certificate_file = ""
-# get participants path
+certificate_file =""
 participate_file = ""
-
 # Enter your name here [Ambassador Name]
 ambassador_name = ""
 
